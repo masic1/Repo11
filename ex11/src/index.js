@@ -1,18 +1,15 @@
 // Only change code below this one
 function splitArrayInGroups(arr, n) {
+    var splitArray = [...arr];
     var result = [];
-    for (var i = 0; i < arr.length; i += n) {
-        var split = arr.slice(i, i + n);
-        result.push(split);
+    
+    while (splitArray.length) {
+        result.push(splitArray.splice(0, n));
     }
-
-
-
-
     
     return result;
 }
 // Only change code above this line
 
-console.log(splitArrayInGroups([["a", "b", "c", "d"], 2])); // Change this line
+console.log(splitArrayInGroups(arr, n)); // Change this line
 module.exports = splitArrayInGroups;
