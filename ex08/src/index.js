@@ -18,5 +18,15 @@ function myMutation(arr) {
 }
 // Only change code this line
 
-console.log(myMutation(arr)); // Change this line
+console.log(myMutation(["hello", "hey"]));
+console.log(myMutation(["hello", "Hello"]));
+console.log(myMutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]));
+console.log(myMutation(["Mary", "Army"]));
+console.log(myMutation(["Alien", "line"]));
+console.log(myMutation(["floor", "for"]));
+console.log(myMutation(["hello", "neo"]));
+console.log(myMutation(["voodoo", "no"]));
+console.log(myMutation(["ate", "date"]));
+console.log(myMutation(["Tiger","Zebra"]));
+console.log(myMutation(["Noel", "Ole"])); // Change this line
 module.exports = myMutation;
